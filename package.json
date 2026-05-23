@@ -1,17 +1,23 @@
 {
   "packageManager": "pnpm@11.0.8+sha512.4c4097e1dd2d42372c4e7fa5a791ff28fc75a484c7ac192e64b1df0fdef17594ba982f9b4fed9adfb3c757846f565b799b2763fb3733d1de1bcb82cf46684912",
   "devDependencies": {
+    "eslint": "10.4.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.2",
-    "prettier": "3.8.3"
+    "prettier": "3.8.3",
+    "typescript-eslint": "8.59.4"
   },
   "engines": {
     "node": "24.15.0"
   },
   "lint-staged": {
-    "*": "prettier --write --ignore-unknown"
+    "*": [
+      "eslint --fix --no-warn-ignored",
+      "prettier --write --ignore-unknown"
+    ]
   },
   "scripts": {
+    "lint": "eslint .",
     "prepare": "husky"
   }
 }
