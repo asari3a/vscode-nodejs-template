@@ -5,7 +5,7 @@ import tseslint from 'typescript-eslint';
 
 export default defineConfig(
   {
-    files: ['**/*.{js,mjs,jsx}'],
+    files: ['**/*.{js,jsx}'],
     languageOptions: {
       globals: globals.node,
     },
