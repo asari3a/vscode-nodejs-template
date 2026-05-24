@@ -36,5 +36,10 @@
     "editor.insertSpaces": true
   },
   // --- Package Manager ---
-  "npm.packageManager": "pnpm"
+  "npm.packageManager": "pnpm",
+  // --- TypeScript ---
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  // --- ESLint ---
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "typescript"]
 }
