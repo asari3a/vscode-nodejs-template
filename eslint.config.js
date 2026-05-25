@@ -5,6 +5,9 @@ import tseslint from 'typescript-eslint';
 
 export default defineConfig(
   {
+    ignores: ['**/dist/**'],
+  },
+  {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       globals: globals.node,
