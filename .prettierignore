@@ -1,1 +1,7 @@
 pnpm-lock.yaml
+
+# AWS CDK
+cdk.out
+
+# TypeScript build outputs
+dist/

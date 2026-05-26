@@ -6,7 +6,7 @@ import tseslint from 'typescript-eslint';
 
 export default defineConfig(
   {
-    ignores: ['**/dist/**'],
+    ignores: ['**/dist/**', '**/cdk.out/**'],
   },
   {
     files: ['**/*.{js,jsx}'],

@@ -6,7 +6,8 @@
   "files.trimTrailingWhitespace": true,
   "files.readonlyInclude": {
     "pnpm-lock.yaml": true,
-    "**/dist/**": true
+    "**/dist/**": true,
+    "**/cdk.out/**": true
   },
   "files.exclude": {
     "**/.git": true,
@@ -18,7 +19,8 @@
     "**/.git": true,
     "pnpm-lock.yaml": true,
     "**/node_modules": true,
-    "**/.pnpm-store": true
+    "**/.pnpm-store": true,
+    "**/cdk.out/**": true
   },
   // --- Editor ---
   "[javascript][javascriptreact][typescript][typescriptreact]": {
