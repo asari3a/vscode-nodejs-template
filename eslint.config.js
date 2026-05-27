@@ -32,6 +32,7 @@ export default defineConfig(
     },
     plugins: {
       'simple-import-sort': simpleImportSort,
+      'unused-imports': unusedImports,
     },
     rules: {
       'no-unused-vars': 'off',
