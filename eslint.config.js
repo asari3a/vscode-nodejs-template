@@ -37,8 +37,6 @@ export default defineConfig(
     rules: {
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-      'unused-imports/no-unused-imports': 'error',
-      'unused-imports/no-unused-vars': 'error',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
       '@typescript-eslint/consistent-type-imports': [
