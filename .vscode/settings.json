@@ -23,6 +23,12 @@
     "**/cdk.out/**": true
   },
   // --- Editor ---
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
