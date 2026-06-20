@@ -5,8 +5,11 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "strict": true,
+    "types": ["node"],
+    "lib": ["ES2022"],
     "skipLibCheck": true,
     "isolatedModules": true,
     "noUncheckedIndexedAccess": true
-  }
+  },
+  "include": ["lib", "bin"]
 }
